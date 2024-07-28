@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Maheshwari Classes</title>
+<link rel="stylesheet" href="web.css">
+<style>
+a:hover{color:#0001dd}
+input{font-size:15pt}
+textarea{font-size:15pt}
+h1{padding:12px;}
+select{width:200px;font-size:20pt;}
+#t1{width:120px;}
+#t10{width:120px;}
+</style>
+</head>
+<body bgcolor="#ff787f">
+<div class="bc"><img src="call.jpg" class="ef"/> +918534245xxx
+<table class="bc" style="margin-right:20px;" cellspacing=0 align="right">
+<tr><font size=21><td><a href="login.html">Student Login</a> &nbsp &nbsp &nbsp &nbsp <a href="register.html"><span class="ij">Register</span></a></td>
+</font></tr></table></div>
+<div style="background:#daffa2;height:90px;">
+<span class="ab">
+<img src="logo.jpg" class="de"/>
+Maheshwari classes</span>
+<span class="cd">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="website.html">Home</a> &nbsp&nbsp&nbsp&nbsp</span>
+<span class="cd"><a href="courses.html">Courses</a> &nbsp&nbsp&nbsp&nbsp</span>
+<span class="cd"><a href="admission.html">Results</a> &nbsp&nbsp&nbsp&nbsp</span>
+<span class="cd"><a href="ourcenters.html">Our Centers</a> &nbsp&nbsp&nbsp&nbsp</span>
+<span class="cd"><a href="contactus.html">Contact Us</a></span>
+</div><br/><div class="hi"><h1 align="center">Registration Form</h1><form method="post" action="">
+<table class="fg" cellpadding=14 align=center><tr><td>Name:</td><td>
+<input type="text" required placeholder="first" name="t1" id="t1"></input> <input type="text" required placeholder="last" name="t10" id="t10"></input></td></tr>
+<tr><td>Fathers name:</td><td><input type="text" required name="t2" id="t2"></input></td></tr>
+<tr><td>Phone no:</td><td><input type="tel" required name="t3" id="t3"></input></td></tr>
+<tr><td>Email:</td><td><input type="text" required name="t4" id="t4"></input></td></tr>
+<tr><td>Date of Birth:</td><td><input type="date" required name="t5" id="t5"></input></td></tr>
+<tr><td>Class:</td><td><Select required name="t6" id="t6"><option>V to VI moving</option>
+<option>VI to VII moving</option><option>VII to VIII moving</option><option>VIII to IX moving</option>
+<option>IX to X moving</option><option>X to XI moving</option>
+<option>XI to XII moving</option><option>XII Passed</option></Select></td></tr>
+<tr><td>Permanent address:</td><td><textarea required name="t7" id="t7"></textarea></td></tr>
+<tr><td>Correspondence address:</td><td><textarea required name="t8" id="t8"></textarea><br/>
+<input type="checkbox" name="t9" id="t9" onchange="f1()"></input><font size=3>Same as permanent</font></td></tr>
+<tr><td colspan=2 align="center"><input type="submit" value="Register" name="b1" id="b1"/></td></tr>
+</table></form></div><br/><hr/><center>&copy Copyright</center><br/><div align="right">Developed by Naresh Bhadu</div>
+</body>
+<script>
+function f1()
+{
+if(t9.checked==true)
+t8.value=t7.value
+}
+</script>
+</html>

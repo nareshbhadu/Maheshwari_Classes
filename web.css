@@ -1,0 +1,23 @@
+*{
+    background: #ff787f;
+}
+.ab{background:#daffa2;border:solid 1pt #daffa2;font-size:50pt;color:red;}
+.bc{font-size:21pt;background:#00ffff;}
+.cd{font-size:21pt;}
+.de{height:60px;width:60px;border-radius:30px;margin-left:10px;margin-top:10px;margin-bottom:-6px;}
+.ef{height:30px;width:30px;border-radius:15px;margin-left:10px;margin-top:3px;margin-bottom:-3px;}
+.fg{font-size:21pt;padding:10;}
+.gh{font-size:21pt;background:#00ffff;height:400px;width:600px;margin-left:400px;}
+.hi{font-size:21pt;background:#00ffff;height:800px;width:630px;margin-left:400px;}
+.jk{font-size:21pt;background:#00ffff;height:550px;width:900px;margin-left:275px;}
+.kl{font-size:21pt;background:#00ffff;height:1400px;width:900px;margin-left:275px;}
+.lm{font-size:15pt;padding:20px;background:#00ffff;height:1000px;width:1300px;margin-left:40px;}
+.mn{font-size:21pt;padding:20px;background:#00ffff;height:800px;width:860px;margin-left:250px;}
+.no{font-size:21pt;padding:40px;border:solid 3pt #ffff00;background:#00ffff;height:200px;width:300px;}
+.op{font-size:21pt;padding:20px;background:#00ffff;height:1750px;width:860px;margin-left:250px;}
+.pq{height:600px;width:1425px;border-radius:40px}
+.ij{color:#0001dd;}
+#b1{font-size:50pt;width:100px;}
+a{text-decoration:none}
+a:link{color:#000000}
+a:visited{color:#000000}
